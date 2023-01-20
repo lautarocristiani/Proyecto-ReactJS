@@ -9,9 +9,9 @@ const NavBar = () => {
             <h3>La tienda de ElLautyCraft</h3>
         </div>
         <div className="flex-initial">
-            <Link to={"/"}><a className="btn btn-ghost normal-case text-xl">INICIO</a></Link>
-            <Link to={"/category/teclados"}><a className="btn btn-ghost normal-case text-xl">TECLADOS</a></Link>
-            <Link to={"/category/mouses"}><a className="btn btn-ghost normal-case text-xl">MOUSES</a></Link>
+            <Link className="btn btn-ghost normal-case text-xl" to={"/"}>INICIO</Link>
+            <Link className="btn btn-ghost normal-case text-xl" to={"/category/teclados"}>TECLADOS</Link>
+            <Link className="btn btn-ghost normal-case text-xl" to={"/category/mouses"}>MOUSES</Link>
         </div>
         <CartWidget/>
     </div>
